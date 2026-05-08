@@ -58,7 +58,7 @@ Lo que planteamos previamente como Pseudocódigo:
 - Si se llega al final , Si isEndOfWord = true, la palabra si existe, si no, solo existe como prefijo.
   
 
-  ## **Pseudocódigo:**
+## **Pseudocódigo:**
 
   <img width="180" height="106" alt="image" src="https://github.com/user-attachments/assets/a5d85c69-81d7-434b-b34f-7614cdb9e829" />
 
