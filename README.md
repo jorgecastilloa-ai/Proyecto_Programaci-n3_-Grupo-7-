@@ -1,6 +1,6 @@
 # Proyecto_Programación3_-Grupo-7-
 
-**Integrantes:**
+##**Integrantes:**
 
 -Jorge Adrián Castillo Alache
 
