@@ -10,13 +10,13 @@
 
 -Nicolas Alexandre Panduro Quispe
 
-**Resumen/descripción del proyecto:**
+## **Resumen/descripción del proyecto:**
 
 Este proyecto implementa una plataforma de streming, estando enfocada en la búsqueda eficiente de contenido mediante estructuras de datos.
 
 El sistema permite gestionar obras, realizar búsquedas rápidas por título y sinopsis, entre otros atributos, priorizando la facilidad y la experiencia del usuario al usar la plataforma mediante algoritmos.
 
-**Objetivos del prosesamiento de datos:**
+## **Objetivos del prosesamiento de datos:**
 
 -Eliminar inconsistencias entre mayúsculas y minúsculas.
 
@@ -30,7 +30,7 @@ Usamos conversión a minusculas, eliminación de caracteres especiales, y selecc
 
 TRIE: Nuestro arbol de prefijos, es una estructura de datos diseñada para almacenar cadenas de texto de la forma más eficiente posble, un carácter es representada por un nodo y el recorrido (con un for) edesde la raíz hasta un nodo terminal forma una palabra completa.
 
-**Proceso del algoritmo de inserción:**
+## **Proceso del algoritmo de inserción:**
 
 -Se comienza desde la raíz.
 
@@ -47,7 +47,7 @@ Lo que planteamos previamente como Pseudocódigo:
   <img width="272" height="118" alt="image" src="https://github.com/user-attachments/assets/ee194c6e-d8f6-4d48-bde8-3a4aa093d6b5" />
 
 
-**Algoritmo de busqueda:**
+## **Algoritmo de busqueda:**
 
 -Se inicia en la raíz.
 
@@ -58,7 +58,7 @@ Lo que planteamos previamente como Pseudocódigo:
 -Si se llega al final , Si isEndOfWord = true, la palabra si existe, si no, solo existe como prefijo.
   
 
-  **Pseudocódigo:**
+  ## **Pseudocódigo:**
 
   <img width="180" height="106" alt="image" src="https://github.com/user-attachments/assets/a5d85c69-81d7-434b-b34f-7614cdb9e829" />
 
