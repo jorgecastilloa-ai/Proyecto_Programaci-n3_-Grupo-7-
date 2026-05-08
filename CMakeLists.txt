@@ -1,6 +1,13 @@
-cmake_minimum_required(VERSION 4.1)
-project(proyectobeta)
+cmake_minimum_required(VERSION 3.10)
+project(proyectoProgra)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(proyectobeta main.cpp Database.cpp Database.h Movie.cpp Movie.h Trie.cpp Trie.h User.cpp User.h Utils.cpp Utils.h)
+add_executable(proyectoProgra
+        main.cpp
+        Database.cpp
+        Movie.cpp
+        Trie.cpp
+        User.cpp
+        Utils.cpp
+)
