@@ -11,8 +11,15 @@ int main() {
 
     db.loadCSV("wiki_movie_plots_deduped.csv");
 
+
     while (true) {
-        cout << "\n1. Buscar pelicula\n2. Lista ver más tarde\n3. Salir\n";
+        auto similar = user.getSimilar(db.getMovies());
+        if (!similar.empty()) {
+            cout << "\nPelículas similares a tus likes:\n";
+            for (auto* m : similar)
+                cout << "- " << m->getTitle() << " | " << m->getGenre() << endl;
+        }
+        cout << "\n1. Buscar pelicula\n2. Lista ver mas tarde\n3. Salir\n";
         int op;
         cin >> op;
         cin.ignore();
@@ -42,7 +49,7 @@ int main() {
                          << endl;
                 }
 
-                cout << "\nSelecciona índice, -1 siguiente página, -2 salir: ";
+                cout << "\nSelecciona índice, -1 siguiente pagina, -2 salir: ";
                 int idx;
                 cin >> idx;
 
@@ -57,7 +64,7 @@ int main() {
 
                     cout << "\nSINOPSIS:\n" << m->getPlot() << endl;
 
-                    cout << "\n1. Like\n2. Ver más tarde\nOtro número para volver\n";
+                    cout << "\n1. Like\n2. Ver mas tarde\n- Seleccionar numero para volver\n";
                     int op2;
                     cin >> op2;
 

@@ -6,6 +6,7 @@
 #include "Movie.h"
 using namespace std;
 
+
 class TrieNode {
 public:
     map<char, TrieNode*> children;
@@ -20,6 +21,8 @@ public:
     Trie();
     void insert(string word, Movie* movie);
     vector<Movie*> search(string word);
+    vector<Movie*> searchSubstring(string word);
+
 };
 
 #endif

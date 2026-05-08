@@ -2,6 +2,7 @@
 #define USER_H
 #include <vector>
 #include "Movie.h"
+#include "Utils.h"
 
 class User {
 private:
@@ -13,6 +14,8 @@ public:
     void addWatchLater(Movie* m);
     vector<Movie*> getLiked();
     vector<Movie*> getWatchLater();
+    vector<Movie*> getSimilar(vector<Movie*>& allMovies);
+
 };
 
 #endif

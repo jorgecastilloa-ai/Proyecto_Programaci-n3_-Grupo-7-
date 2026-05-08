@@ -12,6 +12,6 @@ private:
 public:
     void loadCSV(string filename);
     vector<Movie*> search(string query);
-};
+    vector<Movie*>& getMovies() { return movies; }};
 
 #endif
