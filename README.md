@@ -33,13 +33,8 @@ Proceso del algoritmo de inserción:
 
 Lo que planteamos previamente como Pseudocódigo:
 
-//  function insert(word):
-      node = root
-      for each char in word:
-          if char not in node.children:
-              node.children[char] = new TrieNode()
-          node = node.children[char]
-      node.isEndOfWord = true  
+  <img width="272" height="118" alt="image" src="https://github.com/user-attachments/assets/ee194c6e-d8f6-4d48-bde8-3a4aa093d6b5" />
+
 
 Algoritmo de busqueda:
 
@@ -51,12 +46,7 @@ Algoritmo de busqueda:
 
   Pseudocódigo:
 
-// function search(word):
-    node = root
-    for each char in word:
-        if char not in node.children:
-            return false
-        node = node.children[char]
-    return node.isEndOfWord
+  <img width="180" height="106" alt="image" src="https://github.com/user-attachments/assets/a5d85c69-81d7-434b-b34f-7614cdb9e829" />
+
 
 Como conclusión el pre-procesamiento garantiza que al los datos ingresados se vuelvan uniformes y con el trie se asegure a rapidez y precisión de las respuestas en el output
