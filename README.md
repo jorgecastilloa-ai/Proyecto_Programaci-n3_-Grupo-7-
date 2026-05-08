@@ -63,8 +63,4 @@ Lo que planteamos previamente como Pseudocódigo:
   <img width="180" height="106" alt="image" src="https://github.com/user-attachments/assets/a5d85c69-81d7-434b-b34f-7614cdb9e829" />
 
 
-
-
-
-
 Como conclusión el pre-procesamiento garantiza que al los datos ingresados se vuelvan uniformes y con el trie se asegure a rapidez y precisión de las respuestas en el output.
