@@ -4,7 +4,7 @@
 
 - Jorge Adrián Castillo Alache
 
-- Isaac David Pasache David
+- Issac David Pasache Arroyo
 
 - Valeria Bazán Melendez
 
