@@ -64,4 +64,7 @@ Lo que planteamos previamente como Pseudocódigo:
 
 
 
+
+
+
 Como conclusión el pre-procesamiento garantiza que al los datos ingresados se vuelvan uniformes y con el trie se asegure a rapidez y precisión de las respuestas en el output.
