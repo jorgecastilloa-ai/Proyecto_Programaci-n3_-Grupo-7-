@@ -16,7 +16,7 @@ Este proyecto implementa una plataforma de streming, estando enfocada en la bús
 
 El sistema permite gestionar obras, realizar búsquedas rápidas por título y sinopsis, entre otros atributos, priorizando la facilidad y la experiencia del usuario al usar la plataforma mediante algoritmos.
 
-## **Objetivos del prosesamiento de datos:**
+## **Objetivos del procesamiento de datos:**
 
 -Eliminar inconsistencias entre mayúsculas y minúsculas.
 
