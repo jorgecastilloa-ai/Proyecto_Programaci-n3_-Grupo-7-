@@ -1,6 +1,6 @@
 # Proyecto_Programación3_-Grupo-7-
 
-Integrantes:
+**Integrantes:**
 
 -Jorge Adrián Castillo Alache
 
@@ -10,7 +10,7 @@ Integrantes:
 
 -Nicolas Alexandre Panduro Quispe
 
-Resumen/descripción del proyecto:
+**Resumen/descripción del proyecto:**
 
 Este proyecto implementa una plataforma de streming, estando enfocada en la búsqueda eficiente de contenido mediante estructuras de datos.
 
