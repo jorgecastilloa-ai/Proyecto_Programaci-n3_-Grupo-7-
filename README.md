@@ -12,9 +12,9 @@
 
 ## **Resumen/descripción del proyecto:**
 
-Este proyecto implementa una plataforma de streming, estando enfocada en la búsqueda eficiente de contenido mediante estructuras de datos.
+Este proyecto implementa una plataforma de streaming, estando enfocada en la búsqueda eficiente de contenido mediante estructuras de datos.
 
-El sistema permite gestionar obras, realizar búsquedas rápidas por título y sinopsis, entre otros atributos, priorizando la facilidad y la experiencia del usuario al usar la plataforma mediante algoritmos.
+El sistema permite gestionar obras, realizar búsquedas rápidas por título, sinopsis, entre otros atributos, priorizando la facilidad y la experiencia del usuario al usar la plataforma mediante algoritmos.
 
 ## **Objetivos del procesamiento de datos:**
 
@@ -26,9 +26,9 @@ El sistema permite gestionar obras, realizar búsquedas rápidas por título y s
 
 - Estandarizar palabras provenientes de títulos, directores y actores.
 
-Usamos conversión a minusculas, eliminación de caracteres especiales, y selección de palabras claves en listas para su inserción para Trie.
+Usamos conversión a minúsculas, eliminación de caracteres especiales, y selección de palabras claves en listas para su inserción para Trie.
 
-**TRIE:** Nuestro arbol de prefijos, es una estructura de datos diseñada para almacenar cadenas de texto de la forma más eficiente posble, un carácter es representada por un nodo y el recorrido (con un for) edesde la raíz hasta un nodo terminal forma una palabra completa.
+**TRIE:** Nuestro árbol de prefijos, es una estructura de datos diseñada para almacenar cadenas de texto de la forma más eficiente posble, un carácter es representada por un nodo y el recorrido (con un for) edesde la raíz hasta un nodo terminal forma una palabra completa.
 
 ## **Proceso del algoritmo de inserción:**
 
@@ -64,4 +64,4 @@ Lo que planteamos previamente como Pseudocódigo:
 
 
 
-Como conclusión el pre-procesamiento garantiza que al los datos ingresados se vuelvan uniformes y con el trie se asegure a rapidez y precisión de las respuestas en el output
+Como conclusión el pre-procesamiento garantiza que al los datos ingresados se vuelvan uniformes y con el trie se asegure a rapidez y precisión de las respuestas en el output.
