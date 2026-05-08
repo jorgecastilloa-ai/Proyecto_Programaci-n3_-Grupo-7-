@@ -1,9 +1,13 @@
 # Proyecto_Programación3_-Grupo-7-
 
 Integrantes:
--Jorge Adrián Castillo ALache
+
+-Jorge Adrián Castillo Alache
+
 -Isaac David Pasahe David
--Valeria Bazan Melendez
+
+-Valeria Bazán Melendez
+
 -Nicolas Alexandre Panduro Quispe
 
 Resumen/descripción del proyecto:
@@ -15,8 +19,11 @@ El sistema permite gestionar obras, realizar búsquedas rápidas por título y s
 Objetivos del prosesamiento de datos:
 
 -Eliminar inconsistencias entre mayúsculas y minúsculas.
+
 -Ignorar caracteres especiales o símbolos innecesarios.
+
 -Facilitar búsquedas parciales o por prefijos.
+
 -Estandarizar palabras provenientes de títulos, directores y actores.
 
 Usamos Conversión a minusculas, eliminación de caracteres especiales, y selección de palabras claves en listas para su inserción para Trie.
